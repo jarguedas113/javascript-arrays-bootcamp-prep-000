@@ -1,4 +1,6 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 
-Function addElementToBeginningOfArray(chocolateBars,)
+vfunction addElementToBeginningOfArray(chocolateBars, candyString){
+  return [candyString, ...chocolateBars];
+}
